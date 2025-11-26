@@ -3,7 +3,7 @@
 	"name": "search dataleak extension",
 	"version": "1.0.0", 
 	"description": "by bouli, big up to 7N7",
-	"permission": [
+	"permissions": [
 		"storage"
 	],
 	"host_permissions": [
