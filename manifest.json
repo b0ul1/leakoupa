@@ -3,7 +3,14 @@
 	"name": "search dataleak extension",
 	"version": "1.0.0", 
 	"description": "by bouli, big up to 7N7",
-	"permission": [],
-	"host_permissions": [],
-	"action": {}
+	"permission": [
+		"storage"
+	],
+	"host_permissions": [
+		"https://api.keysco.re/*"
+	],
+	"action": {
+		"default_popup": "pop.html",
+		"default_title": "Leakoupa"
+	}
 }
