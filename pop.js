@@ -1,8 +1,8 @@
 const g_api_url = "https://api.keysco.re/search";
 
-const g_k_a = "MWM2MmFmYWE1YzVi";
-const g_k_b = "MGI2ZjMwYmQ5MWE2M2U3NmE4Yzll";
-const g_k_c = "MmU0M2YxYjU2YzI1OTNhMGU4YTc5OTFmNmQ2MDM2Mg==";
+const g_k_a = "apikey1";
+const g_k_b = "apikey2";
+const g_k_c = "apikey3";
 
 const g_field_config = {
 	email: {
