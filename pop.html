@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Leakoupa</title>
+	<link rel="stylesheet" href="pop.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Leakoupa</h1>
+		<p class="subtitle">fast search in logs</p>
+		<div class="fields-grid">
+			<button class="field-btn" data-type="email">Email</button>
+			<button class="field-btn" data-type="login">Login</button>
+			<button class="field-btn" data-type="password">Password</button>
+			<button class="field-btn" data-type="email_domain">@ Domaine</button>
+			<button class="field-btn" data-type="url">URL / Domaine</button>
+			<button class="field-btn" data-type="username">Username</button>
+			<button class="field-btn" data-type="discord_id">Discord ID</button>
+			<button class="field-btn" data-type="phone">Téléphone</button>
+			<button class="field-btn" data-type="name">Nom</button>
+			<button class="field-btn" data-type="uuid">UUID</button>
+			<button class="field-btn field-btn-disabled" data-type="ip" disabled>
+				IP (no supported)
+			</button>
+		</div>
+		<div class="source-select">
+			<label for="source">Source</label>
+			<select id="source">
+				<option value="xkeyscore">xkeyscore</option>
+				<option value="snusbase">snusbase</option>
+				<option value="leakcheck">leakcheck</option>
+				<option value="hackcheck">hackcheck</option>
+				<option value="oathnet">oathnet</option>
+				<option value="ghosint.leakosint">ghosint.leakosint</option>
+				<option value="ghosint.seon">ghosint.seon</option>
+				<option value="ghosint.breachvip">ghosint.breachvip</option>
+				<option value="osintdog.intelvault">osintdog.intelvault</option>
+				<option value="osintdog.breachbase">osintdog.breachbase</option>
+				<option value="osintdog.akula">osintdog.akula</option>
+			</select>
+		</div>
+		<div id="input-panel" class="input-panel hidden">
+			<label id="input-label" for="search-input">value</label>
+			<input id="search-input" type="text" placeholder="">
+			<div class="input-actions">
+				<button id="cancel-btn" class="secondary-btn">cancel</button>
+				<button id="search-btn" class="primary-btn">search</button>
+			</div>
+		</div>
+		<div id="status" class="status"></div>
+		<div id="results-meta" class="results-meta hidden"></div>
+		<div id="results" class="results"></div>
+	</div>
+	<script src="popup.js"></script>
+</body>
+</html>
+
