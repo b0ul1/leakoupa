@@ -1,0 +1,9 @@
+{
+	"manifest_version": 3,
+	"name": "search dataleak extension",
+	"version": "1.0.0", 
+	"description": "by bouli, big up to 7N7",
+	"permission": [],
+	"host_permissions": [],
+	"action": {}
+}
